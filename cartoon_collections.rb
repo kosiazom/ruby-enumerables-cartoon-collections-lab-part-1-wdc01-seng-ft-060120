@@ -9,4 +9,5 @@ def list_dwarves(array)
   array.each_with_index do |dwarf, index|
     puts "#{1}. *#{dwarf.capitalize}"
   end
+  index
 end
